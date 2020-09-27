@@ -1,0 +1,9 @@
+import numpy as np
+
+class PSO:
+    def __init__(self, n_particles, n_dimensions, aceleration_const, bounds):
+        self._n_particles = n_particles
+        self._n_dimensions = n_dimensions
+        self._aceleration_const = aceleration_const
+        self._bounds = bounds
+                 
